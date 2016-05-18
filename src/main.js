@@ -13,8 +13,11 @@ function print(x) {
 // i.e. Math.round(15.051102 * 100)/100 becomes 15.05,
 
 
-function billTotal(total) {
-	// write code here
+function billTotal(subtotal) {
+
+	var total = subtotal + 0.15*subtotal + 0.095* subtotal;
+
+return "Your total comes to " + total;
 }
 
 // billTotal(21.55); // "Your total comes to $26.83"
@@ -55,5 +58,33 @@ function animalNoise(animal, emotion) {
 // return, e.g. digitalSum(8)?
 
 function digitalSum(num) {
-  // TODO: your code here
+	var i = 0
+	var str = 0
+	var num = string(num);
+	var num2= num.length;
+	for (i = 0; i <= num2; i++) {
+su
+	}
+
+
 }
+
+// Convert the number to a string
+// Get length of string
+// condition : as long as the index # has not exceeed string length
+// do this: 
+// Increment thru string adding index 0,1,2,3,4, until condition is false
+// set the var sum equal to the result.
+// return sum.
+// I know it's something with .substr function.
+
+
+
+
+
+
+
+
+
+
+
